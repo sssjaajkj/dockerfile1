@@ -4,5 +4,6 @@ FROM almalinux:${version}
 #RUN cat /etc/*release
 ARG COURSE
 ARG TRAINER
-RUN echo "Course is : ${COURSE}, TRAINER is ${TRAINER}"
+ENV Duration=120HRS
+RUN echo "Course is : ${COURSE}, TRAINER is ${TRAINER}, Duration is : ${Duration}"
 CMD [ "sleep","60"]
