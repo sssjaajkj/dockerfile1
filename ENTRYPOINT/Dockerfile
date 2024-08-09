@@ -2,5 +2,5 @@ FROM almalinux:9
 
 #CMD [ "ping","-c5","google.com"]  
 # -c5 package
-CMD ["google.com"]
+CMD [ "google.com" ] 
 ENTRYPOINT [ "ping","-c5" ]
