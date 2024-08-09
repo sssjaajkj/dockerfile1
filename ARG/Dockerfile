@@ -1,5 +1,5 @@
 ARG version
-FROM almalinux:${version}
+FROM almalinux:${version:-8}
 # how to know os of the system
 #RUN cat /etc/*release
 ARG COURSE
