@@ -2,4 +2,4 @@ ARG version
 FROM almalinux:${version}
 # how to know os of the system
 RUN cat /etc/*release
-CMD [ "sleep","60"]
+#CMD [ "sleep","60"]
